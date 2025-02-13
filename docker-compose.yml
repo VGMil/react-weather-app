@@ -1,0 +1,14 @@
+services:
+  react-weather:
+    build:
+      context: .
+    container_name: weatherApp
+    ports:
+      - "3000:3000"
+    volumes:
+      - /app/weatherApp/node_modules
+      - ./weatherApp:/app/weatherApp:cached
+
+    environment:
+      - HOST=0.0.0.0
+    stdin_open: true
