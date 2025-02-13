@@ -1,4 +1,4 @@
-`# Configuración Docker para React + Vite
+# Configuración Docker para React + Vite
 
 ## Estructura del Proyecto
 
