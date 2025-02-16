@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import styles from "./NavBar.module.css"
+=======
+import styles from "./Navbar.module.css";
+>>>>>>> 1088cf2495074a9f59528af564c7020ad4b99447
 import { NavItem } from "./navigation.model";
 
 const renderNavItems = (items: NavItem[]) => {
