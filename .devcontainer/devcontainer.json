@@ -1,0 +1,35 @@
+{
+    "name": "React Weather Container",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "react-weather",
+    "workspaceFolder": "/app/weatherApp",
+    
+    "forwardPorts": [3000],
+    "customizations": {
+        
+        "vscode":{
+            
+            "extensions":[
+                "teabyii.ayu",
+                "PKief.material-icon-theme",
+                "esbenp.prettier-vscode",
+                "formulahendry.auto-rename-tag",
+                "christian-kohler.path-intellisense",
+                "dsznajder.es7-react-js-snippets",
+                "dbaeumer.vscode-eslint",
+                "GitHub.copilot",
+                "eliostruyf.vscode-typescript-exportallmodules"             
+            ],
+            "settings": {
+                "workbench.colorTheme": "Ayu Dark Bordered",
+                "workbench.iconTheme": "material-icon-theme",
+                "emmet.includeLanguages": {
+                    "javascript": "javascriptreact"
+                },
+                "editor.formatOnSave": true,
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            }
+        }
+    }
+
+  }

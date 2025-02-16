@@ -11,4 +11,5 @@ services:
 
     environment:
       - HOST=0.0.0.0
+      - CHOKIDAR_USEPOLLING=true
     stdin_open: true
